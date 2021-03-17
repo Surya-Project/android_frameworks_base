@@ -29,6 +29,10 @@ class CustomSystemUIFactory : SystemUIFactory() {
         return services.map { CUSTOM_SERVICES[it] ?: it }.toTypedArray()
     }
 
+    // ML back gesture provider
+    override fun createBackGestureTfClassifierProvider(am: AssetManager, modelName: String) =
+        CustomBackGestureTfClassifierProvider(am, modelName)
+
     companion object {
         private val CUSTOM_SERVICES = mapOf(
             ThemeOverlayController::class to CustomThemeOverlayController::class,
