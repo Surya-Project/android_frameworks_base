@@ -4333,7 +4333,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
 
         // Otherwise, consume events since the user can't see what is being
         // interacted with.
-        return false
+        return false;
     }
 
     private boolean isVolumeKey(int code) {
