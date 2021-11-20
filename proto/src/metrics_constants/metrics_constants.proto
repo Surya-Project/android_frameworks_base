@@ -7436,6 +7436,9 @@ message MetricsEvent {
     // Add new aosp constants above this line.
     // END OF AOSP CONSTANTS
 
+    // AOSPA
+    AOSPA = 10001;
+
     //Extensions
     EXTENSIONS = 1150;
   }
