@@ -29,4 +29,7 @@
     <string name="global_action_reboot_bootloader">Bootloader</string>
     <string name="global_action_settings">Settings</string>
 
+    <!-- WiFi standard numbering on statusbar -->
+    <string name="status_bar_wifi_standard">Wi-Fi standard number</string>
+
 </resources>
